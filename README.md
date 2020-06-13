@@ -15,14 +15,16 @@ the following packages should be installed on your system:
 
 * jupyter
 
-To install the required packages in one shot, go ahead and download the `requirments.txt` 
-file from the repository, and run the following command in the path containing the txt file:
+To install the required package, run the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install jupyter
 ```
 
 ## Running under the Jupyter Notebook
 
 The plain `jupyter notebook` command runs the web application that allows you to create 
-and share documents that contain live code. 
+and share documents that contain live code. So to make sure if you have installed the jupyter packages correctly, run the follwoing command:
+```bash
+jupyter notebook
+```
