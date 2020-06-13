@@ -19,7 +19,8 @@ pip install jupyter
 ## Running under the Jupyter Notebook
 
 The plain `jupyter notebook` command runs the web application that allows you to create 
-and share documents that contain live code. So to make sure if you have installed the jupyter packages correctly, run the follwoing command:
+and share documents that contain live code. So to make sure if you have installed the jupyter package correctly, run the follwoing command:
 ```bash
 jupyter notebook
 ```
+The above command will open a browser in your system, ready to launch an implementaion under the jupyter machine.
