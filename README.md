@@ -6,7 +6,7 @@ supported by [Synnovate Inc](http://synnovateinc.com/).
 
 ## Prerequisites
 
-Install [python](http://www.python.org).
+Install [python](http://www.python.org) according to your OS.
 Make sure that you have successfully installed python (version 3.6 or above) in your system.
 To do so, in the command prompt, type the `python --version` command. Go ahead if the version is 3.6 or above.
  
