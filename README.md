@@ -41,21 +41,19 @@ file from the repository, and run the following command in the path containing t
 pip install -r requirements.txt
 ```
 
-# Lab1: K-Means & PCA 
+# Lab1: K-Means Clustering 
 
 As the first unsupervised algorithm, you are going to see how to cluster 8x8 images, containing handwritten digits 
-using the well-known K-Means algorithm. Moreover, to practice dimensionality reduction, the PCA algorithm is employed 
-as the pre-processing. The code is forked from 
-[here](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans). 
+using the well-known K-Means algorithm.  
 
 ### Running under the Jupyter Notebook
 
-
 To run the *handwritten digit clustering* provided in this repository, do the followings:
-1. download the *handwritten_digit_clustering.ipynb* file
-2. run the following command in the the path containing the *ipynb* file.
+1. Download the *Lab1* folder.
+2. Run the following command in a command prompt in the the folder path.
 
 ```
 jupyter notebook handwritten_digit_clustering.ipynb
 ```
-# Lab2: TBA 
+# Lab2: Dimensionality Reduction
+TBA 
