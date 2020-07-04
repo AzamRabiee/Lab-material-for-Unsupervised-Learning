@@ -56,4 +56,14 @@ To run the *handwritten digit clustering* provided in this repository, do the fo
 jupyter notebook handwritten_digit_clustering.ipynb
 ```
 # Lab2: Dimensionality Reduction
-TBA 
+
+To learn the `scikit-learn` package for dimensionality reduction, we compare two well-known methods:
+
+* Principal Component Analysis (PCA)
+* t-Distributed Stochastic Neighbor Embedding
+
+Download the `Lab2` folder in this repository and run the following command:
+
+```
+jupyter notebook dimensionality_reduction.ipynb
+```
