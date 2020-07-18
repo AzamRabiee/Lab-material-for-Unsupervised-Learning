@@ -68,3 +68,16 @@ Download the `Lab2` folder in this repository and run the following command:
 ```
 jupyter notebook dimensionality_reduction.ipynb
 ```
+
+# Lab3: Autoencoder
+
+We would like to start our first real deep learning project, an autoencoder, for feature learning on the same 
+handwritten digits dataset. To make it even more "deep learning project", let's utilize [pytorch](https://pytorch.org/) 
+as one of the famous deep learning frameworks. So go ahead and install the pytorch using pip command, as guided in 
+[this page](https://pytorch.org/get-started/locally/).
+
+For example, to install the stable latest version of pytorch on windows using pip, the follwoing command works:
+```buildoutcfg
+pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html
+```
+As mentioned above, [this page](https://pytorch.org/get-started/locally/) is helpful for other variations of installation. 
