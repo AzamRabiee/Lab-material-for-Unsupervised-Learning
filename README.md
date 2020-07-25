@@ -69,7 +69,7 @@ Download the `Lab2` folder in this repository and run the following command:
 jupyter notebook dimensionality_reduction.ipynb
 ```
 
-# Lab3: Autoencoder
+# Lab3: Feature Learning for Handwritten Digits using Autoencoders in PyTorch
 
 We would like to start our first real deep learning project, an autoencoder, for feature learning on the same 
 handwritten digits dataset. To make it even more "deep learning project", let's utilize [pytorch](https://pytorch.org/) 
@@ -80,4 +80,15 @@ For example, to install the stable latest version of pytorch on windows using pi
 ```buildoutcfg
 pip install torch===1.5.1 torchvision===0.6.1 -f https://download.pytorch.org/whl/torch_stable.html
 ```
-As mentioned above, [this page](https://pytorch.org/get-started/locally/) is helpful for other variations of installation. 
+As mentioned above, [this page](https://pytorch.org/get-started/locally/) is helpful for finding how to install
+pytorch with different variations.
+
+### Running under the Jupyter Notebook
+
+To run the *autoencoder* implementation provided in this repository, do the followings:
+1. Download the *Lab3* folder.
+2. Run the following command in a command prompt in the the folder path.
+
+```
+jupyter notebook autoencoder.ipynb
+``` 
