@@ -41,3 +41,14 @@ def plot_centroids(clusters, order=range(10)):
     for i in range(len(order)):
         images[i, :] = np.reshape(clusters.cluster_centers_[order[i]], (1, -1))
     plot_images(images)
+    
+def plot_2D_samples(X, indices, title="2D samples"):
+    # X: Nx2 matrix, containing N samples of 2D
+    # indices: vector of the length N, containing the group indices ranging from 0 to 9
+    group_list = split_samples_by_indices(X, indices)
+    colors = ["r", "g", "b", "c", "m", "y", "k", "#FAC268", "#FA818A", "#A99BFA"]
+    for i in range(len(np.unique(indices))):
+        c = np.array(group_list[i])
+        plt.scatter(c[:, 0], c[:, 1], color=colors[i])
+    plt.legend(["y0", "y1", "y2", "y3", "y4", "y5", "y6", "y7", "y8", "y9"])
+    plt.title(title)
